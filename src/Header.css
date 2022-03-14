@@ -1,0 +1,80 @@
+.header {
+  animation: nav-load ease-in var(--nav-load-time);
+}
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.nav-item {
+  animation-name: nav-link-load;
+  animation-duration: var(--nav-link-load-time);
+  animation-timing-function: ease-in;
+  animation-delay: var(--nav-load-time);
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+.nav-item:first-child {
+  animation-name: nav-first-link-load;
+  transform: translateX(-1000%);
+}
+.nav-item:last-child {
+  animation-name: nav-last-link-load;
+  transform: translateX(1000%);
+}
+
+@keyframes nav-link-load {
+  0% {
+    transform: scale(0);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes nav-first-link-load {
+  0% {
+    transform: translateY(-100%);
+  }
+  90% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes nav-last-link-load {
+  0% {
+    transform: translateY(-100%);
+  }
+  90% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.projects__list {
+  animation-name: card-load;
+  animation-delay: 300ms;
+  animation-duration: var(--nav-link-load-time);
+  animation-timing-function: ease-in;
+}
+@keyframes card-load {
+  0% {
+    opacity: 0;
+    transform: perspective(800px) scale3d(1, 1, 2) rotateX(30deg);
+  }
+  100% {
+    opacity: 100;
+    transform: perspective(0) scale3d(0) rotateX(0);
+  }
+}

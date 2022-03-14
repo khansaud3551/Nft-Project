@@ -1,13 +1,82 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  --nav-load-time: 500ms;
+  --nav-link-load-time: 900ms;
+  --card-load-time: 300ms;
+}
+:root {
+  --primary-color: #291013;
+  --secondary-color: #fff;
+  --extra-color: #f7962d;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hearthstone-cursor.png)
+      10 2,
+    auto;
+
+  margin: 0;
+
+  font-family: "Amatic SC", cursive;
+  font-family: "Jolly Lodger", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    to left,
+    #601b1e,
+    #7f2d25,
+    #9d412b,
+    #ba582e,
+    #d6712f,
+    #d6712f,
+    #d6712f,
+    #d6712f,
+    #ba582e,
+    #9d412b,
+    #7f2d25,
+    #601b1e
+  );
+  color: white;
+}
+
+/* Scroll bar */
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  box-shadow: inset 2px -5px 5px var(--primary-color);
+}
+
+.bg_primary {
+  background-color: var(--primary-color);
+}
+.bg_secondary {
+  background-color: var(--secondary-color);
+}
+
+.section_gap {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.section_topj7 {
+  margin-top: 130px;
+}
+
+.stylejk {
+  height: 384px;
+  border-radius: 50%;
+}
+
+.font_large {
+  font-size: 55px;
 }

@@ -1,0 +1,49 @@
+.m8h {
+  margin-top: -30px;
+}
+
+.btn_pdf {
+  font-size: 45px;
+  margin-top: -200px;
+}
+
+.heading_1 {
+  font-size: 43px;
+  margin-bottom: 20px;
+}
+
+.heading_2 {
+  font-size: 35px;
+}
+
+.mj9n {
+  margin-top: -50px;
+}
+
+.dsa {
+  margin-top: -100px;
+}
+
+@media (max-width: 768px) {
+  .mj9n {
+    margin-top: -123px;
+  }
+  .heading_1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .heading_2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .dsa {
+    margin-top: 5px;
+  }
+
+  .btn_pdf {
+    font-size: 45px;
+    margin-top: 10px !important;
+    text-align: center;
+  }
+}

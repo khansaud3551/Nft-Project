@@ -1,38 +1,350 @@
-.App {
-  text-align: center;
+.active {
+  border-bottom: 3px solid var(--extra-color);
+  color: var(--extra-color) !important;
+  /* font-weight:600; */
+}
+.active:hover {
+  text-decoration: none;
+  color: var(--extra-color);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img_banner {
+  width: 100%;
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600 !important;
+  font-size: 35px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo_styled8 {
+  width: 103px;
+  margin-top: -14px;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner {
+  width: 100%;
   display: flex;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 50px;
+}
+
+.border_rad {
+  border-radius: 15px;
+  background-color: var(--primary-color);
+}
+
+.size {
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.border_rad {
+  border-radius: 15px;
+}
+
+.font_size {
+  font-size: 35px;
+}
+
+.color_extra {
+  color: var(--extra-color);
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+  border-radius: 15px;
+}
+.grow:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgb(247 150 45);
+}
+
+.position_32b {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -100;
+  object-fit: cover;
+}
+
+.padding_ex89 {
+  padding: 60px 0px;
+}
+
+a:hover {
+  color: var(--extra-color) !important;
+  text-shadow: 0 1px 2px rgb(247 150 45) !important;
+}
+
+.shadow1 {
+  box-shadow: 0 0 40px rgb(247 150 45);
+}
+
+/* //Roadmap css */
+
+.css-o1utbh,
+.css-692fgp {
+  font-family: "Jolly Lodger", cursive !important;
+  font-size: 25px !important;
+}
+
+.css-692fgp {
+  border: 2px solid white !important;
+  background: #291013 !important;
+}
+
+.css-1b3lipl:before {
+  background-color: white !important;
+  content: "" !important;
+  margin-left: -1px !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 2em !important;
+  width: 1px !important;
+  height: 95% !important;
+}
+
+.css-1jv1kel h4 {
+  font-size: 1.2em !important;
+
+  margin-bottom: 0.3em !important;
+}
+
+.css-vcfpfv {
+  -webkit-transform: rotate(45deg) !important;
+  -ms-transform: rotate(45deg) !important;
+  transform: rotate(45deg) !important;
+  background-color: var(--primary-color) !important;
+  outline: 10px solid white !important;
+  display: block !important;
+  margin: 0.5em 0.5em 0.5em -0.5em !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 2em !important;
+  width: 1em !important;
+  height: 1em !important;
+}
+
+.css-1b3lipl:before {
+  background-color: white !important;
+  content: "" !important;
+  margin-left: -1px !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 2em !important;
+  width: 2px !important;
+  height: 95% !important;
+}
+
+.font_ssa7 {
+  font-size: 43px !important;
+}
+
+.margin_le32h {
+  margin-left: 20px !important;
+}
+
+.font_siz8hj {
+  font-size: 55px !important;
+}
+
+.bi-list::before {
+  color: white;
+  font-size: 36px;
+}
+
+/* //loading_screen css */
+
+.loader {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.margin_h7 {
+  margin-top: 10px;
+}
+
+.img_loader {
+  width: 650px;
+}
+
+/* Small Devices, Tablets */
+/* @media only screen and (max-width: 768px) {
+  .animated { */
+/*CSS transitions*/
+/* -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important; */
+/*CSS transforms*/
+/* -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important; */
+/*CSS animations*/
+/* -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important; */
+/* }
+} */
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.social__icons {
+  display: flex;
+  padding: 10px 10px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: fixed;
+  bottom: 50%;
+  margin-left: 0px;
+  transform: translateY(-500%);
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  right: 0px;
+  z-index: 100000;
+}
+.social__icons > a {
+  color: #a3bacc;
+}
+.social__icons > a:hover {
+  color: var(--title-color);
+}
+.social__icons > span {
+  height: 100px;
+  width: 1px;
+  background-color: #a3bacc;
 }
 
-.App-link {
-  color: #61dafb;
+.clips {
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%);
+  text-align: center;
+  background-color: var(--primary-color);
+  height: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes social-icons {
+  0% {
+    transform: translateY(-1000%);
   }
-  to {
-    transform: rotate(360deg);
+  90% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes social-first-icons {
+  0% {
+    transform: translateY(-1000%);
+  }
+  90% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .App {
+    overflow: hidden;
+  }
+  .img_loader {
+    width: 300px !important;
+  }
+  .logo_styled8 {
+    width: 86px;
+    margin-top: -14px;
+    padding: 10px;
+  }
+  button.navbar-toggler {
+    margin-left: 30px;
+  }
+  .mob_3jh {
+    font-size: 30px;
+  }
+  .css-1jv1kel {
+    padding: 2em 10px 0 0em !important;
+    position: relative;
+    top: -1.875em;
+    left: 2em;
+    width: 95%;
+  }
+  .css-vcfpfv {
+    left: 1em !important;
+    width: 12px !important;
+    height: 12px !important;
+    top: 10px !important;
+  }
+  .css-1b3lipl:before {
+    left: 18px !important;
+    top: 1rem !important;
+  }
+  .font_mobile {
+    text-align: justify;
+    font-size: 28px;
+  }
+  .size {
+    font-size: 25px !important;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    overflow: hidden;
+  }
+  .logo {
+    font-size: 36px;
+  }
+  .header {
+    position: absolute !important;
+  }
+  .img_banner {
+    width: 1000px;
+    height: 67vh;
+    object-position: right !important;
+    margin-left: -295px !important;
+  }
+  .section_gap {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0px 20px;
+  }
+  .size {
+    font-size: 25px !important;
+    text-align: justify;
   }
 }
