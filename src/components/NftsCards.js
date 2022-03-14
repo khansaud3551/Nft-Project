@@ -5,22 +5,10 @@ function NftsCards() {
   return (
     <div className="container section_gap pb-5 pb-md-0 pt-1 pt-md-0">
       <div className="row justify-content-center gap_32 mt-5">
-        <NftCard
-          img="https://www.creepz.co/static/media/creepz-gif.9adaf641.gif"
-          animation="fade-right"
-        />
-        <NftCard
-          img="https://www.creepz.co/static/media/arms-gif.f4ff79ba.gif"
-          animation="fade-left"
-        />
-        <NftCard
-          img="https://www.creepz.co/static/media/creepz-gif.9adaf641.gif"
-          animation="slide-left"
-        />
-        <NftCard
-          img="https://www.creepz.co/static/media/arms-gif.f4ff79ba.gif"
-          animation="slide-right"
-        />
+        <NftCard img="assets/nfts/4.png" animation="fade-right" />
+        <NftCard img="assets/nfts/4.png" animation="fade-left" />
+        <NftCard img="assets/nfts/4.png" animation="slide-left" />
+        <NftCard img="assets/nfts/4.png" animation="slide-right" />
       </div>
     </div>
   );
