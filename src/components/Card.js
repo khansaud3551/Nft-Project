@@ -18,17 +18,17 @@ function Card() {
             The Apocalypticat king had no choice but to take 4444 apocalypticats
             and lead them underground into the bunker to wait out the blast…………{" "}
           </p>
-          <h1 className="text-start my-4 my-md-1">POST IMPACT : </h1>
-          <p className="mb-3 mb-md-0">
-            After impact the king tasked 3333 elite Apocalypticat warriors to
-            escape the destroyed planet, To find a way to save the rest in the
-            bunker , the remaining 1111 were tasked to stay and hold down the
-            bunker….
-          </p>
         </div>
         <div className="col-md-5 mt-5 ">
           <img className="w-100 mb-4 mb-md-0" src="assets/nft.jpeg" alt="" />
         </div>
+        <h1 className="text-start my-4 my-md-1">POST IMPACT : </h1>
+        <p className="mb-3 mb-md-0 size">
+          After impact the king tasked 3333 elite Apocalypticat warriors to
+          escape the destroyed planet, To find a way to save the rest in the
+          bunker , the remaining 1111 were tasked to stay and hold down the
+          bunker….
+        </p>
         <h1 className="font_large text-center my-3 my-md-5">
           Apocalypticat lore
         </h1>
