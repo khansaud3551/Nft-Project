@@ -37,90 +37,95 @@ function WhitePaper() {
 
       <div className="row">
         <h1 className="heading_1 my-4 text-center border-top pt-5">
-          UTILITIES?.
+          WHAT UTILITIES?
         </h1>
         <div className="col-md-5 mj9n">
           <img className="w-100" src="assets/banner5.png" alt="" />
         </div>
         <div className="col-md-7 size ">
-          <h1 className="heading_2 my-4">1. RUGPULL REFUNDS.</h1>
+          <h1 className="heading_2 my-4 text-uppercase">
+            1. Short strips / Lore.
+          </h1>
           <p>
-            We are the FIRST CNFT project that provides refunds for rugpull
-            victims.
+            We plan to connect the cardano ecosystem through our comic series,
+            combining lore/communities featuring nft and metaverse projects and
+            even peoples personal nfts,
           </p>
           <p>
-            I was rugged when I started flipping CNFT.I lost a good sum of
-            money. That feeling of despair can't be described. It can only be
-            felt!
-          </p>
-          <p>The pain majorly inspired me to start project apocalypticats.</p>
-          <p>
-            Part of what apocalypticats stand for is being prepared! By being a
-            holder of Apocalypticats in the top 1500 ranking after mint you are
+            This utility is something thats fun and creative that gives our cats
+            (and other featured projects) more character and more meaning, thus
+            providing it with more value! the founder, being a huge fan of D&D
+            literature and having experience working on a comic for a cronos nft
+            project, were confident we have what it takes to deliver some badass
           </p>
         </div>
-        <p className="size pt-md-3">also holding a RUGPULL REFUND POLICY.</p>
-        <p className="size">
-          This policy is in case you mint a rugpulled project, you can send us
-          your rugpulled nft and we will send you back a percentage of that
-          rug's initial mint price!
+        <p className="size pt-md-3 m-0">
+          lore and include the community in steering the direction and starring
+          in these short strips!!!.
         </p>
-        <p className="size">
-          Details of percentages will be voted on by the community. We will
-          appropriate a portion of the funds from mint into our treasury
-          specifically for easing the burn of RUGS.
-        </p>
-        <p className="size">Terms and Conditions will apply.</p>
-        <h1 className="heading_2 my-4">2. SHORT STRIPS/ LORE.</h1>
+
+        <h1 className="heading_2 my-4 text-uppercase">
+          2. building in a new world.
+        </h1>
         <div className="size">
-          This utility is something that's fun and gives our cats character and
-          more meaning, thus providing it with more value! The founder being a
-          huge fan of D&D literature and having experienced working on a comic
-          for a CRONOS NFT project, we are confident we have what it takes to
-          deliver some badass lore and include the community in steering the
-          direction while starring in these short strips!!!
-        </div>
-        <h1 className="heading_2 my-4">3. BUILDING IN A NEW WORLD.</h1>
-        <p className="size">
-          Everyone out there is promising new "Metaverses". Not us, we plan to
-          develop in metaverses that already exist. As a project, we value the
-          community's input and we will be making a metavault where the
+          No, we dont plan on promising some apocalypticat metaworld but we can
+          definatly develop in metaverses that already exist, as a project we
+          value the communities input and will be making a metavault where the
           community will decide on what metaverses to invest and develop in with
-          project funds for ALL verified holders. Thi would be done through a
-          voting system after mint.
-        </p>
-
-        <h1 className="heading_2 my-4">4. RANK BENEFITS.</h1>
+          project funds for ALL verified holders through a voting system after
+          mint.
+        </div>
+        <h1 className="heading_2 my-4 text-uppercase">
+          3. Exclusive benefits.
+        </h1>
         <p className="size">
-          There will be exclusive benefits for holders of Apocalypticats, we
-          plan on subdividing rooms inside of PCA s inside of pavia, a home
-          compound/base constructed. Inside of that base will be Rooms each of
-          the top 333 cats will be made a space(room) dedicated to them along
-          with the founder! You don't need to own a pavia plot to have a place
-          to lay your tail at night in pavia if you are an exclusive member of
-          apocalypticats.
+          there will be exclusive benifits for holders of Apocalypticats, we
+          plan on creating Apocalypticat metaverse copatible assets inside of
+          pavia and other metaverses giving exclusive acsess to Apocalypticat
+          Holders!!!!.
         </p>
 
-        <h1 className="heading_2 my-4">5. APOCALYPTIC MERCH.</h1>
+        <h1 className="heading_2 my-4 text-uppercase">4. Rug Defense!!.</h1>
+        <p className="size">
+          Part of what apocalypticats stand for is being prepared! By being a
+          holder of Apocalypticats in the top 2000 ranking after mint you are
+          also holding a contract, that contract is incase you mint a rugpulled
+          project, you can send us your rugpulled nft and we will send you back
+          a percentage of that rugs initial mint price!.
+        </p>
+
+        <p className="size">
+          Details of percentages are TBD but we will appropriate a portion of
+          the funds from mint into our treasury specifically for easing the burn
+          of RUGS.
+        </p>
+
+        <h1 className="heading_2 my-4 text-uppercase">5. APOCALYPTIC MERCH.</h1>
         <p className="size">
           We do plan on creating apocalypticat merchandise in the nearest
           future.
         </p>
-        <h1 className="heading_1 my-4 text-center border-top pt-5">
-          COLLABORATIONS?
-        </h1>
+        <h1 className="heading_2 my-4 text-uppercase">6. Collaborations.</h1>
         <p className="size">
-          There are many projects the cats would love to partner with for
-          various reasons. We could be partnering for PFPs with metaverse
-          projects for our short strips and lore. We could also be collaborating
-          with other projects for giveaways and events. Whatever it is,
-          apocalypticats are confident we can make some great friends and
-          powerful partnerships.
+          There are many projects that we would love to collab with and partner
+          with and for many different reasons weather its partnering for PFPs
+          with metaverse projects,for our short strips and lore, or for
+          giveaways and events we are confident we can make some great friends
+          and powerful partnerships.
         </p>
-        <p className="m-0 size">It's a bold new world for CNFT and I am</p>
-        <p className="size">sure W.A.G.M.I!</p>
-        <p className="size">Purrrr!!</p>
-        <h1 className="heading_1 text-center border ">Sonofabitcoin...</h1>
+
+        <h1 className="heading_2 my-4 text-uppercase">7. The Metavault.</h1>
+        <p className="size">
+          The metavault is a community wallet we will use to vote on buying
+          metaverse projects and developing inside of them and also on what to
+          do with any tokens or ada we earn with the profits from flipping,
+          royalties, associated, donations to the wallet and or any income
+          earned through metaverse compattible assets.
+        </p>
+
+        <h1 className="heading_1 text-center border mt-md-4">
+          Sonofabitcoin...
+        </h1>
       </div>
     </div>
   );
