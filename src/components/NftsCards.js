@@ -5,10 +5,26 @@ function NftsCards() {
   return (
     <div className="container section_gap pb-5 pb-md-0 pt-1 pt-md-0">
       <div className="row justify-content-center gap_32 mt-5">
-        <NftCard img="assets/nfts/4.png" animation="fade-right" />
-        <NftCard img="assets/nfts/4.png" animation="fade-left" />
-        <NftCard img="assets/nfts/4.png" animation="slide-left" />
-        <NftCard img="assets/nfts/4.png" animation="slide-right" />
+        <NftCard
+          img="assets/nfts/4.png"
+          name="Apocalypticat"
+          animation="fade-right"
+        />
+        <NftCard
+          img="assets/nfts/4.png"
+          name="Apocalypticat"
+          animation="fade-left"
+        />
+        <NftCard
+          img="assets/nfts/4.png"
+          name="Apocalypticat"
+          animation="slide-left"
+        />
+        <NftCard
+          img="assets/nfts/4.png"
+          name="Apocalypticat"
+          animation="slide-right"
+        />
       </div>
     </div>
   );
@@ -16,7 +32,7 @@ function NftsCards() {
 
 export default NftsCards;
 
-function NftCard({ img, animation }) {
+function NftCard({ img, animation, name }) {
   return (
     <>
       <div
@@ -25,13 +41,13 @@ function NftCard({ img, animation }) {
       >
         <div className="bg-white p-1  border_rad21">
           <div className="position328 btn_hover1">
-            <h3 className="m-0 ">Geneses Creepz</h3>
+            <h3 className="m-0 ">{name}</h3>
             <h4 className="m-0 ">DROP : TBD</h4>
           </div>
           <div className="col-12 border_rad21 py-5 px-3 bg_primary ">
             <img className="w-100 border_rad33 " src={img} alt="" />
 
-            <h3 className="mb-0 mt-3">Thats gotta say apocalypticats</h3>
+            <h3 className="mb-0 mt-3">Apocalypticats</h3>
             <h4 className="m-0">Date: tbd</h4>
             <h4 className="m-0 mt-0">Mint: 50 Ada</h4>
           </div>

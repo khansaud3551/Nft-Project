@@ -32,7 +32,7 @@ function Header() {
           <ul className="navbar-nav   mb-2 mb-lg-0">
             <NavLink
               to={"/"}
-              activeClassName="active"
+              activeclassname="active"
               className="nav-link  mob_3jh"
               aria-current="page"
               href="#"
@@ -41,7 +41,7 @@ function Header() {
             </NavLink>
 
             <NavLink
-              activeClassName="active"
+              activeclassname="active"
               to={"/whitepaper"}
               className="nav-link  mob_3jh"
               aria-current="page"
@@ -54,7 +54,7 @@ function Header() {
         <h1 className="m-0 nav-link px-0 px-md-2 pb-2 pb-md-2 mob_3jh">
           <NavLink
             to={"/conect"}
-            activeClassName="active"
+            activeclassname="active"
             className="nav-link  mob_3jh"
             aria-current="page"
             href="#"

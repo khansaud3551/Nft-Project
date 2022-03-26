@@ -72,11 +72,28 @@ body::-webkit-scrollbar-thumb {
   margin-top: 130px;
 }
 
-.stylejk {
-  height: 384px;
-  border-radius: 50%;
-}
-
 .font_large {
   font-size: 55px;
+}
+
+.heading_2 {
+  color: var(--extra-color);
+  text-shadow: 0px 0px 40px var(--extra-color);
+}
+
+h1 {
+  color: var(--extra-color);
+  text-shadow: 0 1px 50px var(--extra-color);
+}
+
+.t_3 {
+  color: var(--extra-color) !important;
+}
+
+.font_ssa7 {
+  text-shadow: none !important;
+}
+
+.size_sah {
+  font-size: 37px;
 }

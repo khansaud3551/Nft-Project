@@ -2,7 +2,7 @@ import React from "react";
 
 function Card() {
   return (
-    <div className="container section_gap " data-aos="zoom-in-down">
+    <div className="container section_gap " data-aos="flip-left">
       <div className="row bg_primary border_rad px-2 py-4 p-md-5 shadow1 ">
         <div className="col-md-7 size">
           <h1 className="text-start my-3 my-md-1">GROUND ZERO : </h1>

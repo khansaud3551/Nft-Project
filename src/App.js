@@ -9,7 +9,6 @@ import Header from "./Header";
 import AOS from "aos";
 import { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import { SpinnerDotted } from "spinners-react";
 
 let firstRender = true;
 
@@ -38,16 +37,6 @@ function App() {
         <Banner />
         <Marquetag />
 
-        {/* <div className="clips">
-              <h1>Introduction</h1>
-              <h1>
-                It is unknown if the 1111 are still alive and how the 3333
-                Apocalypticats escaped the planet and why they chose to go back
-                in time into the cardano ecosystem, All we know forsure is that
-                they are set out to save there kin and their homeland,
-              </h1>
-            </div> */}
-
         <NftsCards />
         <Card />
         <RoadMap />
@@ -69,9 +58,8 @@ function Marquetag() {
         height="50px"
         style={{ padding: "30px 0px" }}
       >
-        we are looking to onboard team members who have an interest in our
-        project and goals! please dm me on discord or send me an email if you
-        wanna apply your skills to be apart of the team!
+        The untold legend of 3333 apocalypticats journey to the cardano
+        blockchain.
       </marquee>
     </>
   );

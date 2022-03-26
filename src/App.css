@@ -109,7 +109,7 @@ a:hover {
 }
 
 .css-692fgp {
-  border: 2px solid white !important;
+  border: 2px solid var(--extra-color) !important;
   background: #291013 !important;
 }
 
@@ -135,7 +135,7 @@ a:hover {
   -ms-transform: rotate(45deg) !important;
   transform: rotate(45deg) !important;
   background-color: var(--primary-color) !important;
-  outline: 10px solid white !important;
+  outline: 10px solid var(--extra-color) !important;
   display: block !important;
   margin: 0.5em 0.5em 0.5em -0.5em !important;
   position: absolute !important;
@@ -146,7 +146,7 @@ a:hover {
 }
 
 .css-1b3lipl:before {
-  background-color: white !important;
+  background-color: var(--extra-color) !important;
   content: "" !important;
   margin-left: -1px !important;
   position: absolute !important;
@@ -191,6 +191,10 @@ a:hover {
 
 .img_loader {
   width: 650px;
+}
+.stylejk {
+  height: 384px;
+  border-radius: 50%;
 }
 
 /* Small Devices, Tablets */
@@ -277,9 +281,32 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 1399px) {
+  .stylejk {
+    height: 324px;
+    width: 324px !important;
+    border-radius: 50%;
+  }
+}
+
 @media only screen and (max-width: 760px) {
   .App {
     overflow: hidden;
+  }
+
+  .stylejk {
+    height: 390px;
+    width: 390px !important;
+    border-radius: 50%;
+  }
+
+  .about_margim98 {
+    margin-top: 25px;
+  }
+
+  .font_large {
+    font-size: 45px;
+    margin-bottom: 10px;
   }
   .img_loader {
     width: 300px !important;
@@ -319,6 +346,9 @@ a:hover {
   .size {
     font-size: 25px !important;
     text-align: justify;
+  }
+  .sm_screengg {
+    overflow-x: hidden;
   }
 }
 

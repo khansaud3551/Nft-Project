@@ -15,9 +15,17 @@ import { SpinnerDotted } from "spinners-react";
 import AOS from "aos";
 import WhitePaper from "./components/WhitePaper";
 import Footer from "./components/Footer";
+import { useLocation } from "react-router-dom";
 
 function Main() {
   const [loader, setLoader] = useState(false);
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
