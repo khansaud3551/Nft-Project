@@ -15,7 +15,7 @@ function Aboutus() {
   }, []);
   return (
     <div>
-      <div className="container bg_primary section_topj7 mb-5 py-3 py-md-5 border_rad sm_screengg">
+      <div className="container shadow1 bg_primary section_topj7 mb-5 py-3 py-md-5 border_rad sm_screengg">
         <div className="social__icons" data-aos="slide-down">
           <a href="https://discord.gg/dtMFHdbKBe" target="_blank">
             <i className="bi bi-discord font_size" />

@@ -5,7 +5,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div>
-      <footer className="footer-59391" data-aos="zoom-in">
+      <footer className="footer-59391 shadow1" data-aos="zoom-in">
         <div className="border-bottom pb-2 pb-md-5 mb-2 mb-md-4">
           <div className="container">
             <div className="row align-items-start">

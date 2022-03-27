@@ -4,8 +4,8 @@ import "./Header.css";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg w-100 bg-transparent header px-2 px-md-3">
-      <div className="container-fluid border_rad py-2 py-md-0">
+    <nav className="navbar navbar-expand-lg w-100 bg-transparent header px-2 px-md-3 ">
+      <div className="container-fluid border_rad py-2 py-md-0 shadow1">
         {/* <a className="navbar-brand text-white logo" href="#">
           Navbar
         </a> */}
